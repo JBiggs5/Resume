@@ -1,0 +1,57 @@
+.backbox{
+    background-color: lightskyblue;
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+
+}
+
+.links{
+    background-color:lightgrey;
+    border-radius: 20px;
+    padding: 40px;
+    color: black;
+    text-align: center;
+
+}
+ 
+
+.title{
+
+    background-color:lightgrey;
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+
+
+.tableau-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tableau-container .tableauViz {
+    width: 100% !important;
+    height: 400px !important;
+}
+
+
+.textbox{
+
+    background-color:lightgrey;
+    border-radius: 20px;
+    padding: 40px;
+    color: black;
+    font-size: 18px;
+}

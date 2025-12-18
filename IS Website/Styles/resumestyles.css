@@ -1,0 +1,117 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8f4fb; /* light blue */
+    color: #333;
+}
+
+/* Resume Card */
+.resume {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    border-bottom: 2px solid #cce4f5;
+    padding-bottom: 20px;
+}
+
+/* Photo */
+.photo img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #cce4f5;
+}
+
+/* Intro Text */
+.intro h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.intro h2 {
+    margin: 5px 0 10px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #555;
+}
+
+/* Sections */
+.section {
+    margin-top: 25px;
+}
+
+.section h3 {
+    border-bottom: 2px solid #cce4f5;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #1f4e79;
+}
+
+/* Items */
+.item {
+    margin-bottom: 15px;
+}
+
+.item h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.date {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Lists */
+ul {
+    margin: 8px 0 0 20px;
+}
+
+/* Skills */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #e8f4fb;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+}
+/* Download Resume Button */
+.download {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #1f4e79;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #163a5c;
+}
